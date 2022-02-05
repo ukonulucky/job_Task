@@ -1,0 +1,46 @@
+.wrapper{
+    display: block;
+    width: 100%;
+   height: max-content;
+    
+ 
+}
+.Home{
+    display: block;
+    border: 3px solid grey;
+    width: 70%;
+    margin: 0 auto;
+    height: max-content;
+    background-color: grey;
+    border-radius: 0 px;
+    height: 80vh;
+    .nav{
+        display: block;
+        width: 100%;
+        height: max-content;
+        background-color:whitesmoke;
+      .content{
+          display: flex;
+          align-items: center;
+          .innerContent{
+            display: flex;
+            margin-left: 1rem ;
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+            padding:0.3rem;
+            align-items: center;
+            .inner{
+                margin-top: 0.2rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0.3rem;
+            }
+        }
+
+      }
+      
+
+    }
+}
