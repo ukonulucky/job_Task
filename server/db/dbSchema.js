@@ -6,19 +6,19 @@ const validator = require("validator")
 const Schema = mongoose.Schema
 
 const userSchema = new Schema({
-    firstName: {
+    first_name: {
         type: String,
         required: true,
         lowercase: true,
     },
 
-    lastName: {
+    last_name: {
         type: String,
         required: true,
         lowercase: true
     },
     
-    phoneNumber: {
+    phone: {
         type: String,
         required: true
       
@@ -28,7 +28,7 @@ const userSchema = new Schema({
         required: true
       
     },
-    password: {
+    password1: {
         type: String,
         required: true
       

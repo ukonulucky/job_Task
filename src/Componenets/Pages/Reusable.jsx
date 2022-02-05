@@ -23,11 +23,11 @@ function Reusable({ data }) {
         const dataSubmit = async (values) => {
             try {
                 const data = {
-                    first_ame: getValues("first_name"),
+                    first_name: getValues("first_name"),
                     last_name:getValues("last_name"),
                     phone: getValues("phone"),
                     email: getValues("email"),
-                    password: getValues("password1")
+                    password1: getValues("password1")
                 }
           console.log("this are the data",data)
                 const res = await axios.post("http://localhost:5000/api/user/auth/register/", data)
